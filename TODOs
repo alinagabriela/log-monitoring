@@ -1,0 +1,8 @@
+1. Write some tests
+2. Move some logic from the artisan command
+3. Create specific classes:
+    Ex: entities for a log (with string $description, Carbon $staredAt, ?Carbon $endedAt, ..)
+4. Maybe create a new command and run it periodically - every x minutes/hours, depends on the system
+    - Depends on the application: it might not be needed if we want to monitor the log once in a while
+5. Remove the duplicate code (do not iterate over the same array/logic twice)
+6. TBC
